@@ -6,6 +6,7 @@ p {
 .thumbnail {
   width: 300px;
   display: block;
+  margin-bottom: 7px;
 }
 
 .preview-1 {
@@ -18,13 +19,11 @@ p {
 
 .video-title {
   font-family: Roboto;
-  font-size: 12px;
+  font-size: 11px;
   font-weight: bold;
   color: rgb(39, 39, 39); 
-  width: 320px; 
-  line-height: 24px;
-  margin-bottom: 4px;
-  /* text-align:left; */
+  line-height: 14px;
+  margin-bottom: 7px;
 }
 
 .views-count {
@@ -41,3 +40,22 @@ p {
   margin-bottom: 3px;
   /* display: inline-block;  */
 }
+
+.profile-picture {
+  display: inline-block;
+  width: 50px; 
+  border-radius: 100px;
+  vertical-align: top;
+}
+
+.pfp {
+  width: 40px;
+  border-radius: 100px;
+
+}
+
+.video-info {
+  display: inline-block;
+  width: 240px; 
+}
+
