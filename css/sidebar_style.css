@@ -2,10 +2,10 @@
   position: fixed;
   left: 0; 
   bottom: 0;
-  top: 57px; 
+  top: 55px; 
   width: 72px; 
   z-index: 200;
-  /* background-color: green; */
+  background-color: white; 
 }
 
 .video-time {
