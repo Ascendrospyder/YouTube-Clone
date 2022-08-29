@@ -1,16 +1,16 @@
 .thumbnail {
   width: 100%; /*change to 100% to make the image fit inside the container*/
-  display: block;
-  margin-bottom: 7px;
+  /* display: block; */
+  /* margin-bottom: 7px; */
 }
 
-.preview-1 {
+/* .preview-1 {
   width: 300px;
   display: inline-block;
   vertical-align: top;
   margin-left: 10px;
   margin-right: -3px;
-}
+} this little error was messing up my code so much*/ 
 
 .video-title {
   font-family: Roboto;
@@ -19,6 +19,12 @@
   color: rgb(39, 39, 39);
   line-height: 14px;
   margin-bottom: 7px;
+  margin-top: 0;
+}
+
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
 .views-count {
@@ -50,11 +56,6 @@
 .video-info {
   display: inline-block;
   width: 240px;
-}
-
-.video-info-grid {
-  display: grid;
-  grid-template-columns: 50px 1fr;
 }
 
 .video-grid {

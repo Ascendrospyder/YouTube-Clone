@@ -1,10 +1,26 @@
+.top-section {
+  height: 55px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .left-section {
+  background-color: lightblue;
+  width: 150px; 
 }
 
 .middle-section {
-  display: flex;
+  /* display: flex; */
   align-items: center;
+  background-color: lightcoral;
+  flex: 1; 
+  margin-left: 70px;
+  margin-right: 30px;
+  max-width: 500px;
 }
 
 .right-section {
+  background-color: lightseagreen;
+  width: 200px; 
 }
