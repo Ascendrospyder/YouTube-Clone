@@ -53,16 +53,44 @@
   /* align-items: center; */
 }
 
-.search-button {
+.search-button, .voice-search-button {
   /* flex: 1;  */
+  display: flex;
   height: 33px; 
   width: 55px;
   border-width: 1px;
   border-style: solid;
   border-color: rgb(204, 204, 205);
   background-color: rgb(248, 248, 248);
+  position: relative;
+  justify-content: center;
+  align-items: center;
 }
 
+.search-button .tool-tip, .voice-search-button  .tool-tip {
+  position: absolute;
+  background-color: rgb(77, 76, 76);
+  opacity: 0.7;
+  bottom: -42px; 
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-family: Roboto, Arial;
+  font-size: 11px;
+  font-weight: 500;
+  color: white;
+  border-radius: 2px;
+  opacity: 0; /* to get that hover animation we set the opacity to zero and when we hover we make it 1*/ 
+  transition: opacity 0.4s;
+  pointer-events: none; /* this will prevent the search bar from being hovered on */
+  white-space: nowrap;
+}
+
+.search-button:hover .tool-tip, 
+.voice-search-button:hover .tool-tip {
+  opacity: 1;
+}
 .search-button:hover {
   background-color: rgb(241, 241, 241);
   cursor: pointer;
@@ -84,6 +112,7 @@
   border-style: solid;
   border-color: rgb(255, 255, 255);
   margin-left: 8px;
+  position: relative;
 }
 
 .voice-search-button:hover {
