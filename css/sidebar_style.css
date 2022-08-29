@@ -2,9 +2,10 @@
   position: fixed;
   left: 0; 
   bottom: 0;
-  top: 55px; 
+  top: 57px; 
   width: 72px; 
-  background-color: green;
+  z-index: 200;
+  /* background-color: green; */
 }
 
 .video-time {
@@ -22,4 +23,31 @@
   border-radius: 2px;
   font-weight: bold;
   font-family: Roboto, Arial;
+}
+
+.sidebar-link {
+  /* background-color: lightgray; */
+  height: 76px; 
+  margin-bottom: 3px;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.sidebar-link:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.sidebar-icons {
+  width: 30px;
+}
+
+.text {
+  font-size: 11px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  text-align: center;
 }
