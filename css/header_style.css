@@ -1,15 +1,14 @@
 .top-section {
-  height: 55px; 
+  height: 55px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   z-index: 100;
 
   position: fixed;
-  top: 0; 
-  /* bottom: 0  */
-  left: 0; 
-  right: 0;   
+  top: 0;
+  left: 0;
+  right: 0;
   background-color: white;
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -18,8 +17,6 @@
 }
 
 .left-section {
-  /* background-color: lightblue; */
-  /* width: 150px;  */
   display: flex;
   align-items: center;
 }
@@ -45,20 +42,16 @@
 .middle-section {
   display: flex;
   align-items: center;
-  /* background-color: lightcoral; */
-  flex: 1; 
+  flex: 1;
   margin-left: 70px;
   margin-right: 30px;
   max-width: 500px;
-  /* align-items: center; */
 }
 
-.search-button, 
-.voice-search-button 
-{
-  /* flex: 1;  */
+.search-button,
+.voice-search-button {
   display: flex;
-  height: 33px; 
+  height: 33px;
   width: 55px;
   border-width: 1px;
   border-style: solid;
@@ -69,15 +62,15 @@
   align-items: center;
 }
 
-.search-button .tool-tip, 
-.voice-search-button .tool-tip, 
+.search-button .tool-tip,
+.voice-search-button .tool-tip,
 .upload-icon-container .tool-tip,
 .apps-icon-container .tool-tip,
 .notifications-container .tool-tip {
   position: absolute;
   background-color: rgb(77, 76, 76);
   opacity: 0.7;
-  bottom: -42px; 
+  bottom: -42px;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 6px;
@@ -87,16 +80,16 @@
   font-weight: 500;
   color: white;
   border-radius: 2px;
-  opacity: 0; /* to get that hover animation we set the opacity to zero and when we hover we make it 1*/ 
+  opacity: 0; /* to get that hover animation we set the opacity to zero and when we hover we make it 1*/
   transition: opacity 0.4s;
   pointer-events: none; /* this will prevent the search bar from being hovered on */
   white-space: nowrap;
 }
 
-.search-button:hover .tool-tip, 
-.voice-search-button:hover .tool-tip, 
+.search-button:hover .tool-tip,
+.voice-search-button:hover .tool-tip,
 .upload-icon-container:hover .tool-tip,
-.apps-icon-container:hover .tool-tip, 
+.apps-icon-container:hover .tool-tip,
 .notifications-container:hover .tool-tip {
   opacity: 1;
 }
@@ -114,14 +107,14 @@
 
 .magnifying-glass {
   width: 28px;
-  display: block; /* centers the image pasted from google*/ 
+  display: block; /*centers the image pasted from google*/
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
 
 .voice-search-button {
-  height: 37px; 
+  height: 37px;
   width: 37px;
   border-radius: 20px;
   border-width: 1px;
@@ -136,40 +129,36 @@
 }
 
 .search-box {
-  flex: 1; 
-  height: 30px; 
+  flex: 1;
+  height: 30px;
   width: 300px;
   /* border-color: rgb(222, 221, 221); */
   font-family: Roboto, Arial;
   font-size: 15px;
-  border-width: 1px; 
+  border-width: 1px;
   border-style: solid;
   border-color: rgb(204, 204, 205);
   padding-left: 10px;
-  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.09); /* this will set the box shadow inside*/ 
-  width: 0; /* setting the width to zero will make the search bar shrink!*/ 
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.09); /* this will set the box shadow inside*/
+  width: 0; /* setting the width to zero will make the search bar shrink!*/
 }
 
 .search-box::placeholder {
-  /* padding-left: 10px; */
   font-family: Roboto, Arial;
-  font-size: 15px; 
+  font-size: 15px;
 }
 
-
 .right-section {
-  /* background-color: lightseagreen; */
-  width: 200px; 
+  width: 200px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-right: 12px; 
-  flex-shrink: 0; /* this means that no matter how we resize the browser it won't change the size of this */ 
+  margin-right: 12px;
+  flex-shrink: 0; /* this means that no matter how we resize the browser it won't change the size of this */
 }
 
 .create-icon {
-  height: 26px; 
-  /* margin-right: 12px; */
+  height: 26px;
 }
 
 .create-icon:hover {
@@ -178,7 +167,6 @@
 
 .youtube-apps-icon {
   height: 26px;
-  /* margin-right: 12px; */
 }
 
 .youtube-apps-icon:hover {
@@ -187,7 +175,6 @@
 
 .notifications-icon {
   height: 26px;
-  /* margin-right: 12px; */
 }
 
 .notifications-icon:hover {
@@ -195,7 +182,7 @@
 }
 
 .header-pfp {
-  height: 26px; 
+  height: 26px;
   border-radius: 100px;
 }
 
@@ -209,15 +196,15 @@
 
 .notifications-count {
   position: absolute;
-  top: -2px; 
-  right: -3px; 
+  top: -2px;
+  right: -3px;
   background-color: red;
-  color: white; 
+  color: white;
   font-size: 12px;
   font-family: Roboto, Arial;
   padding-left: 4px;
-  padding-right: 4px; 
-  padding-top: 0.5px; 
-  padding-bottom: 0.5px;  
+  padding-right: 4px;
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
   border-radius: 100px;
 }

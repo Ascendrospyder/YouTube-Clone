@@ -1,16 +1,6 @@
 .thumbnail {
   width: 100%; /*change to 100% to make the image fit inside the container*/
-  /* display: block; */
-  /* margin-bottom: 7px; */
 }
-
-/* .preview-1 {
-  width: 300px;
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 10px;
-  margin-right: -3px;
-} this little error was messing up my code so much*/ 
 
 .video-title {
   font-family: Roboto, Arial;
@@ -38,15 +28,11 @@
   font-size: 11px;
   color: rgb(96, 96, 96);
   margin-bottom: 3px;
-  /* display: inline-block;  */
 }
 
 .profile-picture {
-  /* display: inline-block;
-  width: 50px;  */
   border-radius: 100px;
   margin-top: 3px;
-  /* vertical-align: top; */
 }
 
 .pfp {
@@ -56,7 +42,6 @@
 
 .video-info {
   display: inline-block;
-  /* width: 240px; */
 }
 
 .video-grid {
