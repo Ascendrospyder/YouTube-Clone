@@ -1,0 +1,25 @@
+.side-bar {
+  position: fixed;
+  left: 0; 
+  bottom: 0;
+  top: 55px; 
+  width: 72px; 
+  background-color: green;
+}
+
+.video-time {
+  background-color: black;
+  color: white; 
+  opacity: 0.9;
+  position: absolute;
+  bottom: 9px;
+  right: 5px; 
+  font-size: 13px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 4px; 
+  border-radius: 2px;
+  font-weight: bold;
+  font-family: Roboto, Arial;
+}
