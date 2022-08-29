@@ -17,7 +17,7 @@ By building the frontend of the main page of YouTube really allowed me to apply 
 - frequent use of GitHub to keep track of the changes I made 
 
 # Challenges faced during the project
-Though through applying freshly learnt content to build this project, I came across a lot of bugs and styling issues that really pushed me to my limits. Below are just some things I came across that challenged me:
+Though through applying freshly learnt content to build this project I had learnt quite a few things, I came across a lot of bugs and styling issues that really pushed me to my limits. Below are just some things I came across that challenged me:
 - Using flexbox in a nested manner 
 - So much HTML code and a lack of organisation made it hard to read 
 - Making sure the style was as close as possible to the actual website 
